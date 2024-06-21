@@ -3,14 +3,86 @@
   {
     "name":"Camp Snoopy",
     "cover":"camp-snoopy-stream-cover-gzud3wMw9Y84vyfjJCwBVd2uPd2TS6Mz_220x330.jpg",
-    "url":"camp-snoopy",
+    "id":"camp-snoopy",
     "genre":"Zeichentrick"
   },
   {
     "name":"Es war einmal … das Leben",
     "cover":"es-war-einmal-das-leben-stream-cover-6TXDCgikPq9sT9w6Px17vWyVYQJ2JcFD_220x330.jpg",
-    "url":"es-war-einmal-das-leben",
+    "id":"es-war-einmal-das-leben",
     "genre":"Zeichentrick"
-  }
+  },
+  {
+    "name":"Es war einmal … Amerika",
+    "cover":"es-war-einmal-amerika-stream-cover-vo2tSoPptef0rjmBQXyNOBaQQggrsjVp_220x330.jpg",
+    "id":"es-war-einmal-amerika",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Es war einmal … der Mensch",
+    "cover":"es-war-einmal-der-mensch-stream-cover-OnETrnMorJt9TE9I82E88hYNZGOSBtbi_220x330.jpg",
+    "id":"es-war-einmal-der-mensch",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Es war einmal … der Weltraum",
+    "cover":"es-war-einmal-der-weltraum-stream-cover-CLW700X5khL2nKhIOqISgwKiTiystdeB_220x330.jpg",
+    "id":"es-war-einmal-der-weltraum",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Es war einmal … Entdecker und Erfinder",
+    "cover":"es-war-einmal-entdecker-und-erfinder-stream-cover-aOLNy8cjPOFxMrxPRYQFnjm8HwQOr5j2_220x330.jpg",
+    "id":"es-war-einmal-entdecker-und-erfinder",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Es war einmal... die Entdeckung unserer Welt",
+    "cover":"es-war-einmal-die-entdeckung-unserer-welt-stream-cover-RRhZhvcpb6IxFSm8vo6q5aslBvlPnuXe_220x330.jpg",
+    "id":"es-war-einmal-die-entdeckung-unserer-welt",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Es war einmal... unsere Erde",
+    "cover":"es-war-einmalunsere-erde-stream-cover-OFJQKh2C0iupY7AZ36zOLcMyIeMwvswO_220x330.jpg",
+    "id":"es-war-einmalunsere-erde",
+    "genre":"Zeichentrick"
+  },
+  {
+    "name":"Tiere wie wir",
+    "cover":"tiere-wie-wir-stream-cover-mR204MdZAck82c7kDM2xXFt08fZUk5x6_220x330.jpg",
+    "id":"tiere-wie-wir",
+    "genre":"Dokumentation"
+  },
+  {
+    "name":"Das Geheimnis von Twin Peaks",
+    "cover":"das-geheimnis-von-twin-peaks-stream-cover-3I9QDow1FB2kbaYKwqpIuO7X2N6pqGXR_220x330.jpg",
+    "id":"das-geheimnis-von-twin-peaks",
+    "genre":"Krimi"
+  },
+  {
+    "name":"Tatort",
+    "cover":"tatort-stream-cover-qv1b0eiqesjdfJwJeCtkXwcNuIwO34Cx_220x330.jpg",
+    "id":"tatort",
+    "genre":"Krimi"
+  },
+  {
+    "name":"Eine tierisch faule Familie",
+    "cover":"eine-tierisch-faule-familie-stream-cover-5iJO8BEWVPt4CMgPdyVQETYWmeLogQl3_220x330.jpg",
+    "id":"eine-tierisch-faule-familie",
+    "genre":"Dokumentation"
+  },
+  {
+    "name":"Augsburger Puppenkiste - Bill Bo und seine Kumpane",
+    "cover":"augsburger-puppenkiste-bill-bo-und-seine-kumpane-stream-cover-jNYNvUBdEQ31qebNK7CHgSU1BF0uzP7G_220x330.jpg",
+    "id":"augsburger-puppenkiste-bill-bo-und-seine-kumpane",
+    "genre":"Kinder"
+  },
+  {
+    "name":"Die Notärztin",
+    "cover":"die-notrztin-stream-cover-odzUI5AhGbXi7XFEm6uU5lmsqTi7kLbz_220x330.jpg",
+    "id":"die-notrztin",
+    "genre":"Drame"
+  }    
   ]
 }
