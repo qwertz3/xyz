@@ -3,12 +3,14 @@
   {
     "name":"Camp Snoopy",
     "cover":"camp-snoopy-stream-cover-gzud3wMw9Y84vyfjJCwBVd2uPd2TS6Mz_220x330.jpg",
-    "url":"camp-snoopy"
+    "url":"camp-snoopy",
+    "genre":"Zeichentrick"
   },
   {
     "name":"Es war einmal … das Leben",
     "cover":"es-war-einmal-das-leben-stream-cover-6TXDCgikPq9sT9w6Px17vWyVYQJ2JcFD_220x330.jpg",
-    "url":"es-war-einmal-das-leben"
+    "url":"es-war-einmal-das-leben",
+    "genre":"Zeichentrick"
   }
   ]
 }
