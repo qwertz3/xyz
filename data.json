@@ -86,6 +86,7 @@
     "background":"tatort-stream-cover-tvQJPvlz4aF0u6HItYL7YNXTySWEfoum_800x300.jpeg",
     "description":"Der Sonntagabend ist für Millionen von deutschen Fernsehzuschauern seit Jahrzehnten für die Krimireihe „Tatort“ reserviert, bei der Ermittler in verschiedenen deutschen Städten Mordfälle lösen. Seit 1970 haben Dutzende Polizeibeamte in allen Teilen Deutschlands, aber auch in Österreich und der Schweiz, Fälle gelöst, die oft auch sozialkritische Themen ansprachen.",
     "id":"tatort/staffel-54",
+    "d":1970,
     "genre":"Krimi"
   },
   {
@@ -94,6 +95,7 @@
     "background":"polizeiruf-110-stream-cover-Ps0tv3v6B6MvAnMzLWDGNzGbm9MP7hsQ_800x300.jpeg",
     "description":"Immer gibt es für die Kommissare des „Polizeiruf 110“ ein Verbrechen aufzuklären. Ob Beziehungstat, Verzweiflungsakt oder Racheakt – die Motive können unterschiedlicher nicht sein. Dennoch finden die Ermittler fast immer heraus, was sich hinter kleinbürgerlichen Fassaden, hinter Gartenzäunen und in tiefen Wäldern abgespielt hat.",
     "id":"polizeiruf-110/staffel-53",
+    "d":1971,
     "genre":"Krimi"
   },    
   {
