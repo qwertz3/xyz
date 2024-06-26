@@ -85,9 +85,17 @@
     "cover":"tatort-stream-cover-qv1b0eiqesjdfJwJeCtkXwcNuIwO34Cx_220x330.jpg",
     "background":"tatort-stream-cover-tvQJPvlz4aF0u6HItYL7YNXTySWEfoum_800x300.jpeg",
     "description":"Der Sonntagabend ist für Millionen von deutschen Fernsehzuschauern seit Jahrzehnten für die Krimireihe „Tatort“ reserviert, bei der Ermittler in verschiedenen deutschen Städten Mordfälle lösen. Seit 1970 haben Dutzende Polizeibeamte in allen Teilen Deutschlands, aber auch in Österreich und der Schweiz, Fälle gelöst, die oft auch sozialkritische Themen ansprachen.",
-    "id":"tatort",
+    "id":"tatort/staffel-54",
     "genre":"Krimi"
   },
+  {
+    "name":"Polizeiruf 110",
+    "cover":"polizeiruf-110-stream-cover-IPIe398yw5R7EIRSultUxeWrlp8Vobc5_220x330.png",
+    "background":"polizeiruf-110-stream-cover-Ps0tv3v6B6MvAnMzLWDGNzGbm9MP7hsQ_800x300.jpeg",
+    "description":"Immer gibt es für die Kommissare des „Polizeiruf 110“ ein Verbrechen aufzuklären. Ob Beziehungstat, Verzweiflungsakt oder Racheakt – die Motive können unterschiedlicher nicht sein. Dennoch finden die Ermittler fast immer heraus, was sich hinter kleinbürgerlichen Fassaden, hinter Gartenzäunen und in tiefen Wäldern abgespielt hat.",
+    "id":"polizeiruf-110/staffel-53",
+    "genre":"Krimi"
+  },    
   {
     "name":"Eine tierisch faule Familie",
     "cover":"eine-tierisch-faule-familie-stream-cover-5iJO8BEWVPt4CMgPdyVQETYWmeLogQl3_220x330.jpg",
