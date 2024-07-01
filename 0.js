@@ -594,5 +594,3 @@ function err(e,backFunc) {
 	selectedElement=error;
 	flag.add("error");
 }
-
-start();
