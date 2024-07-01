@@ -1,0 +1,388 @@
+#main {
+  overflow: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: .3s opacity;
+}
+
+.waiting #main, .stream-menu #main, .error #main {
+	opacity: .3;
+}
+
+.bg-image {
+	position: absolute;
+  top: 0;
+  right: 0;
+  height: 22.5em;
+  width: 60%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  transition: opacity .5s;
+  opacity:0;
+}
+
+.bg-image:after {
+  content: "";
+  background: linear-gradient(to left, transparent, black);
+  width: 100%;
+  height: 101%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.bg-image:before {
+  content: "";
+  background: linear-gradient(to bottom, transparent, black);
+  width: 100%;
+  height: 10em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#cover {
+  width: 12em;
+  height: 18em;
+  position: absolute;
+  top: 2.5em;
+  background-size: cover;
+  transition: .5s left, .5s opacity;
+  left: -11.8em;
+  opacity: 0;
+}
+
+.serial #cover {
+	left: 1.8em;
+	opacity: 1;
+}
+
+#title {
+	position: absolute;
+  top: 1em;
+  left: 1.2em;
+  font-size: 2em;
+  font-weight: bold;
+  transition: .5s left;
+}
+
+.serial #title {
+	left: 8em;
+}
+
+#genre {
+	position: absolute;
+  top: 4.6em;
+  left: 2.4em;
+  width: 50%;
+  color:slategray;
+  transition: .5s left;
+}
+
+#description {
+	position: absolute;
+  top: 7.2em;
+  left: 2.4em;
+  width: 50%;
+  line-height: 1.5em;
+	-webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  transition: .5s left; 
+}
+
+.serial #description,
+.serial #genre {
+	left: 16em;
+}
+
+#carousel {
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  box-sizing: border-box;
+  height: 20em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  white-space: nowrap;
+  padding: 0 1.5em;
+  transition: .5s bottom, .5s opacity;
+  opacity: 1;
+}
+
+.serial #carousel {
+	bottom: -20em;
+	opacity: 0;
+}
+
+#carousel::-webkit-scrollbar {
+	display: none;
+}
+
+.item {
+	width: 11em;
+	margin: 1em;
+	height: 16.5em;
+	position: relative;
+	display: inline-block;
+}
+
+.item-card {
+	position:absolute;
+  width: 11em;
+  height: 16.5em;
+  overflow: hidden;
+  border: .1em solid transparent;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item.selected .item-card,
+.item:hover .item-card{
+	transform: scale(1.1);
+	border: .1em solid whitesmoke;
+	z-index:1;
+	border-radius: .1em;
+}
+
+#eContainer, #sContainer {
+	position: absolute;
+  overflow: hidden;
+  top: 22.5em;
+	height: calc(100vh - 22.5em);
+	transition: .5s opacity, .5s left;
+	opacity:0;
+}
+
+#eContainer:before, #sContainer:before {
+    background: linear-gradient(to top, transparent, black);
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 1.4em;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+#eContainer:after, #sContainer:after {
+    background: linear-gradient(to bottom, transparent, black);
+    content: "";
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    height: 1.4em;
+    display: block;
+    position: absolute;
+    width: 100%;
+}
+
+#episodes::-webkit-scrollbar, #seasons::-webkit-scrollbar, #streams::-webkit-scrollbar {
+	display: none;
+}
+
+#sContainer {
+  left:-12em;
+	width: 13.2em;
+}
+
+.serial #sContainer {
+	left: 1.2em;
+	opacity:1;
+}
+
+#seasons, #episodes {
+	height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 1.4em 1em;
+  box-sizing: border-box;
+}
+
+.season, .episode, .stream {
+	margin: .5em;
+	padding: 0.5em 1em;
+  border-radius: .2em;
+  box-sizing: border-box;
+  opacity:.5;
+  border: 1px solid transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.season, .stream {
+	
+	text-align: center;
+}
+
+.season.active {
+  background: lightgrey;
+  color: black;
+  opacity:1;
+}
+
+.season.selected, .episode.selected, .stream.selected {
+	transform: scale(1.05);
+	border-color:slategray;
+	opacity:1;
+}
+
+#eContainer {
+  left: 20em;
+}
+
+.serial #eContainer {
+	left:14.5em;
+	opacity:1;
+}
+
+.episode {
+  max-width: 50em;
+}
+
+.episode.selected, .stream.selected {
+ 	color: white;
+}
+
+.episode:before {
+  content: "Folge " attr(n);
+  margin-right: 1.2em;
+  min-width: 3.9em;
+  display: inline-block;
+}
+
+.stream-menu .episode.selected {
+	background: slategray;
+	transform: none;
+}
+
+#strmContainer, #errorMsg {
+  transition: .5s opacity, .5s margin;
+  opacity: 0;
+  border-radius: .1em;
+  box-shadow: 0 0 2em 0 black;
+  background: #272727;
+  margin-bottom: -10em;
+  padding:1em;
+}
+
+#strmContainer {
+  width: 18em;
+}
+
+.stream-menu:not(.error) #strmContainer, .error #errorMsg {
+	margin-bottom: 0em;
+	opacity:1;
+}
+
+#dialog, #error {
+	display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-evenly;
+	align-items: center;
+	z-index:10;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+#streams {
+  overflow: hidden;
+  overflow-y: auto;
+  max-height: 22.5em; /* = (x * 55px + 10px) / 20px ; hier x=8 Elemente */
+  box-sizing: border-box;
+}
+
+#error {
+	z-index:100;
+}
+
+#errorMsg {
+ 	min-width:16em;
+ 	text-align:center;
+}
+
+#player {
+	display:none;
+	position:absolute;
+	z-Index:20;
+	top:0;
+	left:0;
+	width: 100vw;
+  height: 100vh;
+  background: black;
+}
+
+#bar {
+	transition: opacity .25s cubic-bezier(0.0,0.0,0.2,1);
+  opacity: 1;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height:4em;
+	background: linear-gradient(0deg,black,transparent);
+	box-sizing: border-box;
+}
+
+.bar #bar {
+	opacity:0;
+}
+
+#barTrack {
+	background: rgba(255, 255, 255, .3); /* 2do: evtl umstylen */
+  width: calc(100% - 12em);
+  position: absolute;
+  bottom: 1.25em;
+  left: 6em;
+  height: .5em;
+}
+
+progress {
+	-webkit-appearance: none;
+  background: 0 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+progress::-webkit-progress-bar { background:0 0; }
+progress::-webkit-progress-value { background: currentColor; }
+
+#barPlay {
+	color:steelblue;
+}
+
+#barLoad {
+	color: rgba(255, 255, 255, .5);
+}
+
+#currenttime {
+  position: absolute;
+  left: 0;
+  bottom: 1em;
+	line-height: 1em;
+	width:4em;
+	text-align: right;
+	margin-left: 1em;
+}
+
+#duration {
+	position: absolute;
+  right: 0;
+  bottom: 1em;
+	line-height: 1em;
+	width:4em;
+	margin-right:1em;
+}
